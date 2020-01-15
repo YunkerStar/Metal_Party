@@ -1,13 +1,58 @@
 @charset "UTF-8";
+header h3{
+  margin: 0;
+	padding:20px 25px;
+  width: 100%;
+	color:#FFF;
+	background-color:rgba(160,216,239,0.55);
+	font-weight:bold;
+  position:fixed;
+}
+button#ok{
+	cursor:pointer;
+	border:none;
+	color:#FFF;
+  background-color:#45ABB5;
+	border-radius:3px;
+	outline:none;
+}
+button#ok:hover{
+	background:#3A8E96;
+	transition:background-color .3s;
+}
+#bg{
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:rgba(0, 0, 0, .4);
+}
+#alertBox{
+	margin:200px auto 0;
+	text-align:center;
+	padding-top:25px;
+	width:300px;
+	height:85px;
+	background:#FFF;
+	border-radius:3px;
+	box-shadow:2px 2px rgba(0, 0, 0, .3);
+}
+
 
 a:link{color: #6aa4d6;}
 a:hover{color: #4f7697;}
 a:active{color: #aed3f2;}
 
 body {
+  font-family:Arial, sans-serif;
+  -webkit-font-smoothing:antialiased;
+  color:#333;
   margin: 0 auto;
-  width: 500px;
 }
+div#pre{
+  text-align: center;
+  }
 
 form {
   /* フォームをページの中央に置く */
@@ -68,7 +113,7 @@ textarea {
   padding-top: 30px;
   padding-left: 90px; /* label 要素と同じサイズ */
 }
-button {
+#button_send {
   margin: 0 auto;
   border: none;
   outline: none;
@@ -88,5 +133,5 @@ button {
   text-align: right;
 }
 body{
-  background-image:url(https://github.com/YunkerStar/Metal_Party/blob/master/background.jpg) ;
+  background-image:url(background.jpg) ;
 }
